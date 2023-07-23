@@ -1,6 +1,12 @@
 spring:
   application:
     name: EurekaServer
+  security:
+    basic:
+      enabled: true
+    user:
+      name: eureka-microservices-admin
+      password: akeruesecivresorcimnimda
 
 server:
   port: 8761
